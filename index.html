@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA_Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>BINGO123!</title>
+    </head>
+
+    <body>
+    
+        <main>
+            <section class="section1">
+
+                <h1>Bienvenidos a BINGO123!</h1>
+                <div class="main">
+                <button id="pasarTurno">Pasar Turno</button>
+                <p id="pasarTurnoEL"></p>
+                <p id="numeroDelTurno"></p>
+                <button id="show-hide1">cerrar partida 3x3</button>
+                <button id="show-hide2">cerrar partida 4x4</button>
+                <button id="show-hide3">cerrar partida 5x5</button>
+                <button onclick="compararValores()">Presiona para comparar numero de bingo</button>
+                </div>
+
+            </section>
+
+            <section class="section2">
+
+            <table id="matrizTable3x3b">
+                <tr>
+                    <td id="matrizTable3x3" class="matrizTable3x3a" class="highlight">
+                      <span class="hide" ></span> <span></span> <span></span>
+                    </td>
+                  </tr>
+            </table>
+    
+            </section>
+
+            <section class="section3">
+
+            <table>
+                <tr>
+                    <td id="matrizTable4x4" class="matrizTable4x4a">
+                      <span class="hide"></span> <span></span> <span></span>
+                    </td>
+                  </tr>
+            </table>
+
+            </section>
+
+            <section class="section4">
+
+            <table>
+                <tr>
+                    <td id="matrizTable5x5" class="matrizTable5x5a">
+                      <span class="hide"></span> <span></span> <span></span>
+                    </td>
+                  </tr>
+            </table>
+
+            </section>
+
+            <script src="srcipt.js"></script> 
+
+            <section class="section5">
+                
+                <form method="get">
+        
+                    <label for="usernameField">enter username</label>
+                    <input type="text" id="usernameField" name="username" /> 
+
+                    <br />
+                    <br />
+
+                    <button onclick=""> </button>
+                    <button type="reset">Reset form</button> 
+                    <button type="menu">Menu</button>
+         
+                </form>
+            </section>
+        </main>
+    </body>
+</html>

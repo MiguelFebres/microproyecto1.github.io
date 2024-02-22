@@ -1,0 +1,64 @@
+body {
+ background: rgb(131,58,180);
+ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+ font-family: sans-serif;
+ color: white;
+}
+main{
+    border: 1px solid black;
+    margin: 30px auto;
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+.section1{
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 20px 20px 20px 20px;
+}
+.section2{
+    background-color:  rgba(100, 100, 100, 0.4);
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+}
+.section3{
+    background-color:  rgba(200, 200, 200, 0.4);
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+}
+.section4{
+    background-color:  rgba(150, 150, 150, 0.4);
+    padding: 20px 20px 20px 20px;
+    width: 300px;
+}
+.section5{
+    background-color:  rgba(50, 50, 50, 0.4);
+    padding: 20px 20px 20px 20px;
+}
+table{
+    border: 3px solid black;
+    margin: 40px auto;
+
+}
+button{
+    height: 40px;
+    width: 60px;
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+.matrizTable3x3 span {
+    border: 3px solid black;
+}
+td{
+    border: 2px solid black;
+}
+.hide {
+    display: none;
+}
+td.highlight {
+    color: aqua;
+}
